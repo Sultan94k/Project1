@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,29 +19,49 @@
             <div class="col-md-12">
 
                 <div class="jumbotron jumbotron-fluid">
+                        <!--<span class="glyphicon glyphicon-triangle-right" aria-hidden="false"></span>-->
                     <div class="container">
-                        <h1 class="display-4"><i class="far fa-newspaper"></i>The New York Times Search</h1>
+                        <h1 class="display-4"><i class="fa fa-newspaper-o"></i>The New York Times Search</h1>
                     </div>
                 </div>
 
                 <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
+                        <div class = "panel panel-primary">
+                        <div class = "panel-heading">
+                            <h2 class = "panel-title"> Search Parameters</h2>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                            <div class="form-group">
+                                    <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Search Term:</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                          </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Start Year (Optional): </label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">End Year (Optional): </label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                                <div>
+                                        <button type="button" class="btn btn-primary btn-sm">Search</button>
+                                        <button type="button" class="btn btn-secondary btn-sm">Clear Results</button>
+                                </div>
+                          </form> 
 
             </div>
         </div>

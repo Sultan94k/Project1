@@ -2,13 +2,22 @@ h1 {
     color: white;
 }
 
-.container {
+#container1 {
     margin: 0 auto;
+    
 }
+
 
 .jumbotron {
     background:  #203159;
     border-radius: 15px;
     border-color: black;
     text-align: center;
+}
+
+.panel {
+    background:#2c3e50;
+    color: white;
+    border-color: black;
+    border-radius: 5px
 }
