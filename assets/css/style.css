@@ -21,3 +21,13 @@ h1 {
     border-color: black;
     border-radius: 5px
 }
+form{
+    border: solid 1px black;
+}
+.form-group{
+    padding-left: 19px;
+    padding-right: 19px;
+}
+button{
+    padding: 5px;
+}
